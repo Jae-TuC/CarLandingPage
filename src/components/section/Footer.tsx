@@ -1,5 +1,5 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa6";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="absolute -right-60 -bottom-40 h-100 w-100 rounded-full bg-[#374A6D] opacity-15 blur-3xl sm:-bottom-[50%]" />
       <div className="grid grid-cols-1 items-start gap-x-16 gap-y-12 justify-self-center sm:grid-cols-2 xl:grid-cols-5">
         <div className="flex flex-col items-start gap-y-6 xl:col-span-2">
-          <img src={logo} alt="logo" className="h-6" />
+          <img src="../../assets/logo.png" alt="logo" className="h-6" />
           <p className="text-light block text-[13px] tracking-wide text-balance">
             We offer the best electric cars of the most recognized brands in the
             world.
