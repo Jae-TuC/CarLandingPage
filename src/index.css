@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-first: #306ad9;
+  --color-first-alt: #306ad9;
+  --color-title: #f1f2f3;
+  --color-text: #babec4;
+  --color-light: #888b91;
+  --color-body: #0a0a0b;
+  --color-container: #111213;
+
+  --font-exo: "Exo", sans-serif;
+}
+
+.embla {
+  position: relative;
+  overflow: hidden;
+}
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+.embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.embla__slide {
+  position: relative;
+  min-width: 0;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 800px) and (max-width: 880px) {
+  .embla__viewport {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .embla__slide {
+    margin: 0 10px;
+  }
+}
